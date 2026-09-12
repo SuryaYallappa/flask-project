@@ -1,41 +1,68 @@
 # Flask Project
 
-This repository contains the Flask and MongoDB projects completed as part of the Git and GitHub assignment.
+This repository contains multiple Flask and MongoDB projects developed as part of the Git and GitHub assignment.
 
-## Projects
+------------------------------------------------------------
+📂 Projects
+------------------------------------------------------------
 
 ### Assignment 1
-A Flask JSON API that provides data through the `/api` endpoint.
+- A simple Flask JSON API that provides data through the `/api` endpoint.
 
 ### Assignment 2
-A Flask frontend and MongoDB-backed backend application.
+- A Flask frontend and MongoDB‑backed backend application.
 
-### To-Do App
-A To-Do application with the following fields:
+### To‑Do App
+- A full‑stack To‑Do application with the following fields:
+  • Item Name
+  • Item Description
+  • Item ID
+  • Item UUID
+  • Item Hash
+- Backend powered by Flask + MongoDB Atlas
+- Frontend served via Flask templates
+- Deployed successfully on Render
 
-- Item Name
-- Item Description
-- Item ID
-- Item UUID
-- Item Hash
+Live Demo: https://todo-frontend-f962.onrender.com/
 
-## Technologies Used
-
+------------------------------------------------------------
+🛠 Technologies Used
+------------------------------------------------------------
 - Python
 - Flask
-- MongoDB
+- MongoDB Atlas
 - PyMongo
-- Git
-- GitHub
+- Git & GitHub
+- Render (deployment)
 
-## Running the Projects
-
+------------------------------------------------------------
+▶️ Running the Projects
+------------------------------------------------------------
 1. Navigate to the required project folder.
-2. Install the required dependencies.
+2. Install the required dependencies:
+   pip install -r requirements.txt
 3. Configure the MongoDB connection using the `mongo_url` environment variable.
-4. Run the `app.py` file.
+4. Run the application:
+   python app.py
 
-Example:
+------------------------------------------------------------
+🚀 Deployment
+------------------------------------------------------------
+- Frontend → Render Web Service
+- Backend → Render Web Service
+- Database → MongoDB Atlas
 
-```bash
-python app.py
+Database credentials are stored securely as environment variables and are not committed to GitHub.
+
+------------------------------------------------------------
+🔮 Future Improvements
+------------------------------------------------------------
+- Improve UI/UX for submission and view pages
+- Add authentication for users
+- Implement update & delete functionality for To‑Do items
+- Enhance error handling and logging
+
+------------------------------------------------------------
+📜 License
+------------------------------------------------------------
+This project is licensed under the MIT License.
