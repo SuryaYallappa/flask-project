@@ -14,8 +14,7 @@ def home():
 def submit():
     from_data = dict(request.form)
 
-    requests.post(f"{BACKEND_URL}/submit", json=from_data)
-
+    requests.post(f"{BACKEND_URL}/submittodoitem", json=from_data)
     return "Data submitted successfully!"
 
 
