@@ -1,7 +1,8 @@
 import requests
 from flask import Flask, render_template, request
 
-BACKEND_URL = "http://127.0.0.1:9000"
+BACKEND_URL = "https://todo-app-7l07.onrender.com"
+
 app = Flask(__name__)
 
 
@@ -21,7 +22,6 @@ def submit():
 @app.route("/view")
 def view():
     response = requests.get(f"{BACKEND_URL}/view")
-
     return response.json()
 
 
