@@ -16,5 +16,17 @@
         "name": "Anjali",
         "age": 19,
         "course": "Data Science"
-    }
+    },
+     {
+    "id": 2,
+    "name": "Rahul",
+    "course": "Python",
+    "age": 21
+  },
+  {
+    "id": 3,
+    "name": "Priya",
+    "course": "MongoDB",
+    "age": 22
+  }
 ]
